@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Introduction</string>
+    <string name="notification_error_ssl_cert_invalid">Invalid SSL Certificate</string>
+</resources>
