@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_alc">عن إي آل سي</string>
+    <string name="about_me">عني</string>
+    <string name="andela_icon_description">أيقونة أنديلا</string>
+    <string name="app_display_name">إي آل سي المرحلة 1</string>
+    <string name="app_name">تقديم</string>
+    <string name="country_category">البلد :</string>
+    <string name="country_value">تونس</string>
+    <string name="divided_name">بثينة بوشهدة</string>
+    <string name="email_category">البريد الإلكتروني :</string>
+    <string name="extended_name">بثينة بوشهدة</string>
+    <string name="google_icon_description">أيقونة جوجل</string>
+    <string name="notification_error_ssl_cert_invalid">شهادة أس أس أل غير صالحة</string>
+    <string name="phone_number_category">رقم الهاتف :</string>
+    <string name="slack_username_category">الإسم على سلاك :</string>
+    <string name="ssl_error_negative_button">إلغاء</string>
+    <string name="ssl_error_postive_button">مواصلة</string>
+    <string name="track_category">المسار :</string>
+    <string name="track_value">أندرويد</string>
+    <string name="welcome_text">مرحبا في إي أل سي 4.0</string>
+</resources>

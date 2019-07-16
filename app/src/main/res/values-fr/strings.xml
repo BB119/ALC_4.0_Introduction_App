@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Introduction</string>
+    <string name="country_category">Pays :</string>
+    <string name="country_value">Tunisie</string>
+    <string name="google_icon_description">Icône de Google</string>
+    <string name="notification_error_ssl_cert_invalid">Certificat SSL invalide</string>
+    <string name="phone_number_category">Téléphone :</string>
+    <string name="slack_username_category">Nom sur Slack :</string>
+    <string name="ssl_error_negative_button">Annuler</string>
+    <string name="ssl_error_postive_button">Continuer</string>
+    <string name="track_category">Piste :</string>
+    <string name="welcome_text">Bienvenue à ALC 4.0</string>
+    <string name="about_alc">A propos d\'ALC</string>
+    <string name="about_me">A propos de moi</string>
+    <string name="andela_icon_description">Icône d\'Andela</string>
+    <string name="extended_name">Boutheina Bouchahda</string>
+    <string name="email_category">Email :</string>
+    <string name="divided_name">Boutheina Bouchahda</string>
+    <string name="app_display_name">ALC 4 Phase 1</string>
+    <string name="track_value">Android</string>
+</resources>

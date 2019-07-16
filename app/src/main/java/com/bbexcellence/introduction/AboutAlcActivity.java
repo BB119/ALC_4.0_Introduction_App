@@ -1,16 +1,15 @@
 package com.bbexcellence.introduction;
 
-import android.app.Activity;
 import android.content.DialogInterface;
 import android.net.http.SslError;
+import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.view.View;
 import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Toast;
 
 public class AboutAlcActivity extends AppCompatActivity {
 
@@ -33,17 +32,18 @@ public class AboutAlcActivity extends AppCompatActivity {
 
     private class MyWebClient extends WebViewClient {
         @Override
-        public void onReceivedSslError(WebView view, final SslErrorHandler handler, SslError error) {
+        public void onReceivedSslError(final WebView view, final SslErrorHandler handler, SslError error) {
             // for SSLErrorHandler
             final AlertDialog.Builder builder = new AlertDialog.Builder(view.getContext());
             builder.setMessage(R.string.notification_error_ssl_cert_invalid);
-            builder.setPositiveButton("Continue", new DialogInterface.OnClickListener() {
+            builder.setPositiveButton(getString(R.string.ssl_error_postive_button), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
+                    view.setVisibility(View.VISIBLE);
                     handler.proceed();
                 }
             });
-            builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            builder.setNegativeButton(getString(R.string.ssl_error_negative_button), new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     handler.cancel();
